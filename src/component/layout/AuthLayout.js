@@ -1,9 +1,9 @@
 import React from "react";
 import { useLocation, Route, Switch, Redirect } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
-import AuthNavbar from "./component/bar/AuthNavbar";
-import AuthFooter from "./component/footer/AuthFooter";
-import routes from "routes";
+import AuthNavbar from "component/bar/AuthNavbar.js";
+import AuthFooter from "component/footer/AuthFooter.js";
+import routes from "routes.js";
 
 function AuthLayout(props) {
     const mainContent = React.useRef(null);
